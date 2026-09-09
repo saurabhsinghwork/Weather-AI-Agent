@@ -1,0 +1,17 @@
+[project]
+name = "weather-agent"
+version = "0.1.0"
+description = "A beginner-friendly AI weather agent built with LangGraph and Gemini"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph",
+    "langchain-core",
+    "langchain-google-genai",
+    "pydantic-settings",
+    "httpx",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
